@@ -1,5 +1,5 @@
 /*********
-https://codeforces.com/contest/1698/problem/D
+https://toph.co/p/a-unique-array
 *********/
 
 #include<bits/stdc++.h>
