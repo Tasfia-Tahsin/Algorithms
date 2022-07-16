@@ -96,3 +96,19 @@ int main()
         cout<<getAns(0,s.size()-1)<<hmm;
     }
 }
+
+/*
+ll suf[ 1000006 ];
+void suffixHash()
+{
+    int n = s.size();
+    suf[0]=prifixHash[n-1];
+    suf[0] *= inverseModPreCalc[1];
+ 
+    fr(i,0,n)
+    {
+        suf[i+1] = ( prifixHash[n-1] - prifixHash[i] + mod ) * inverseModPreCalc[i+1] ;
+        suf[i+1] %= mod ;
+    }
+}
+*/
